@@ -1,5 +1,4 @@
 import "./style.css";
-import img from "../../img/photo-max.png";
 
 const header = () => {
   return (

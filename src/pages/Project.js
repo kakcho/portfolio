@@ -12,19 +12,19 @@ const Project = () => {
 			<div className="container">
 				<div className="project-details">
 					<h1 className="title-1">{project.title}</h1>
-
+					<a href={project.link} target="_blank" rel="noreferrer"> 
 					<img
 						src={project.imgBig}
 						alt={project.title}
 						className="project-details__cover"
-					/>
+					/></a>
 
 					<div className="project-details__desc">
 						<p>Skills: {project.skills}</p>
 					</div>
 
 					{project.gitHubLink && (
-						<Button link="https://github.com/kakcho" />
+						<Button link={project.gitHubLink} />
 					
 					)}
 				</div>

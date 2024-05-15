@@ -279,6 +279,8 @@ body {
 
 	.project__title {
 		font-size: 22px;
+		text-align: center;
+		align-items: center;
 	}
 
 	/* Project page */
@@ -319,3 +321,6 @@ body {
 	}
 }
 
+.project{
+	min-height: 290px;
+}
