@@ -12,11 +12,9 @@ import project04 from "./../img/projects/4.png";
 import project05 from "./../img/projects/5.png";
 
 import project06 from "./../img/projects/6.png";
-// import project05 from "./../img/projects/05.jpg";
-// import project05Big from "./../img/projects/05-big.jpg";
 
-// import project06 from "./../img/projects/06.jpg";
-// import project06Big from "./../img/projects/06-big.jpg";
+import project07 from "./../img/projects/7.jpg";
+import project07Big from "./../img/projects/7Big.jpg";
 
 const projects = [
   {
@@ -66,6 +64,14 @@ const projects = [
   	imgBig: project06,
   	skills: 'React, Node.js',
   	gitHubLink: 'https://github.com/kakcho/matTrain'
+  },  
+  {
+  	title: 'Сайт с топом и графиками криптовалют',
+  	img: project07,
+    link: "#",
+  	imgBig: project07Big,
+  	skills: 'React & TS, react-chartjs-2, moment, axios',
+  	gitHubLink: 'https://github.com/kakcho/cryptoUp'
   },
 ];
 

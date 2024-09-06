@@ -1,4 +1,5 @@
 import "./style.css";
+import me from '../../img/me.png'
 
 const header = () => {
   return (
@@ -16,6 +17,7 @@ const header = () => {
             <p>моя цель учиться и создавать новое</p>
           </div>
         </div>
+        <img src={me} className='my-photo'/>
       </header>{" "}
     </div>
   );

@@ -9,7 +9,7 @@
 }
 
 .project {
-	max-width: 370px;
+	width: 370px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
@@ -17,6 +17,7 @@
 
 .project__img {
 	border-radius: 10px;
+
 }
 
 .project__title {
